@@ -13,7 +13,7 @@ func main() {
 	app := cli.NewApp()
 	app.Name = "swarm"
 	app.Usage = "docker clustering"
-	app.Version = "0.0.2-SNAPSHOT"
+	app.Version = "0.0.2-DINGEN"
 
 	app.Flags = []cli.Flag{
 		cli.BoolFlag{
