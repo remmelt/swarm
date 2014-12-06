@@ -174,6 +174,10 @@ func postContainerStop(c *context, w http.ResponseWriter, r *http.Request) {
 
 // POST /containers/{name:.*}/kill
 func postContainerKill(c *context, w http.ResponseWriter, r *http.Request) {
+	if true {
+		http.Error(w, fmt.Sprintf("Because fuckyou: %s", name), http.StatusNotFound)
+		return
+	}
 	name := mux.Vars(r)["name"]
 	container := c.cluster.Container(name)
 	if container == nil {
