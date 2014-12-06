@@ -3,7 +3,7 @@ package filter
 import (
 	"fmt"
 
-	"swarm/cluster"
+	"github.com/docker/swarm/cluster"
 	"github.com/samalba/dockerclient"
 )
 
