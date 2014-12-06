@@ -357,7 +357,7 @@ func ListenAndServe(c *cluster.Cluster, s *scheduler.Scheduler, addr, version st
 		eventsHandler: NewEventsHandler(),
 	}
 	c.Events(context.eventsHandler)
-	r, err := createRouter(context, false)
+	r, err := createRouter(context, true)
 	if err != nil {
 		return err
 	}
