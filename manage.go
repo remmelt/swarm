@@ -6,12 +6,12 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"api"
-	"cluster"
-	"discovery"
-	"scheduler"
-	"scheduler/filter"
-	"scheduler/strategy"
+	"github.com/docker/swarm/api"
+	"github.com/docker/swarm/cluster"
+	"github.com/docker/swarm/discovery"
+	"github.com/docker/swarm/scheduler"
+	"github.com/docker/swarm/scheduler/filter"
+	"github.com/docker/swarm/scheduler/strategy"
 )
 
 type logHandler struct {
