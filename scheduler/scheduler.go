@@ -3,9 +3,9 @@ package scheduler
 import (
 	"sync"
 
-	"github.com/docker/swarm/cluster"
-	"github.com/docker/swarm/scheduler/filter"
-	"github.com/docker/swarm/scheduler/strategy"
+	"swarm/cluster"
+	"swarm/scheduler/filter"
+	"swarm/scheduler/strategy"
 	"github.com/samalba/dockerclient"
 )
 

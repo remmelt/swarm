@@ -3,7 +3,7 @@ package filter
 import (
 	"testing"
 
-	"github.com/docker/swarm/cluster"
+	"swarm/cluster"
 	"github.com/samalba/dockerclient"
 	"github.com/stretchr/testify/assert"
 )

@@ -5,7 +5,7 @@ import (
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/docker/swarm/discovery"
+	"discovery"
 )
 
 func join(c *cli.Context) {

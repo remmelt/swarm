@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"github.com/docker/swarm/cluster"
+	"swarm/cluster"
 	"github.com/samalba/dockerclient"
 )
 

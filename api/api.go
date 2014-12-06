@@ -13,8 +13,8 @@ import (
 	"strings"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/docker/swarm/cluster"
-	"github.com/docker/swarm/scheduler"
+	"swarm/cluster"
+	"swarm/scheduler"
 	"github.com/gorilla/mux"
 	"github.com/samalba/dockerclient"
 )
